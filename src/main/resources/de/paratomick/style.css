@@ -1,0 +1,112 @@
+.root {
+    -fx-background-color: transparent;
+}
+
+.view_background {
+    -fx-background-color: rgba(0, 0, 0, 0.75) rgba(0, 0, 0, 0.25);
+    -fx-background-insets: 0 1px;
+}
+
+.view_no_background {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0 1px;
+}
+
+.time_label {
+    -fx-max-width: 800px;
+    -fx-max-height: 20px;
+    -fx-text-alignment: center;
+}
+
+.player_label {
+    -fx-max-width: 800px;
+    -fx-max-height: 50px;
+    -fx-pref-width: 120px;
+    -fx-text-alignment: center;
+}
+
+ProgressBar {
+    -fx-max-width: 800px;
+    -fx-max-height: 50px;
+    -fx-padding: 2px;
+    -fx-min-height: 35px;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .root {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.text {
+    -fx-font-weight: 900;
+    -fx-fill: white;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 0, 0);
+}
+
+.health_bar {
+    -fx-accent: #7f3232;
+}
+
+.health_bar > .track {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+.absorb_bar {
+    -fx-accent: rgba(255, 125, 0, 0.6);
+    -fx-max-height: 23px;
+}
+
+.absorb_bar > .track {
+    -fx-background-color: transparent;
+}
+
+.magicka_bar {
+    -fx-accent: #32327f;
+}
+
+.magicka_bar > .track {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+.stamina_bar {
+    -fx-accent: #327f32;
+}
+
+.stamina_bar > .track {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ult_bar {
+    -fx-accent: #323232
+}
+
+.ult_bar > .track {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+.relequen {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-padding: 5px;
+    -fx-background-radius: 10px 5px 10px 5px;
+}
+
+.relequenRed {
+    -fx-background-color: rgba(95, 0, 0, 0.5);
+    -fx-text-fill: red;
+}
+
+.relequenStacks {
+    -fx-font-size: 20px;
+}
+
+.relequenBox {
+    -fx-alignment: center_right;
+    -fx-padding: 0 10px 0 0;
+}
